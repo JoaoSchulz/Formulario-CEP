@@ -1,10 +1,9 @@
-
-<img src = "https://gist.githubusercontent.com/JoaoSchulz/672a9421bd25e0b95a4b9c97ca96ca29/raw/c2d70197aeb5b89592e7fecc46757d9403b5d570/Form.svg">
+<img src = "https://gist.githubusercontent.com/JoaoSchulz/f92a4db5a91467b1218bc12ce55851c9/raw/e50ae329bb18972eacbda5006ee28d3e17b4a76a/CEP.svg">
 <p> Trabalho feito utilizando HTML5  CSS3 JavaScript</p>
 
 <h2> Objetivo </h2>
 
-<p> Fazer um formulario de cadastro, Tendo que preencher os campos de forma correta, botao só é liberado quando preencher com sucesso todos os campos, caso nao preencha, aparecerá uma mensagem de erro de acordo com o campo</p>
+<p> Fazer um formulario de cadastro, utilizando o recurso ViaCEP, onde o usuario coloca o CEP, e automaticamente é preenchido todos os campos, quando colocado errado, o cep avisa o usuario sobre o erro</p>
 
 <h2> Linguagens Utilizadas </h2>
 
