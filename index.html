@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="index.css">
+    
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h2>LOCALIZAÇÃO</h2>
+        </div>
+        <form class="form" id="form">
+            <div class="form-control">
+                <label for="username" >Informe o CEP</label>
+                <input type="text" id="cep" maxlength="8">
+                <small>Error Message</small>
+            </div>
+            <div>
+                <label>Rua</label>
+                <input type="email" id="rua">
+                <span class="loading"></span>
+            </div>
+            <div>
+                <label>Bairro</label>
+                <input type="text" id="bairro">
+                <span id="bair" class="loading"></span>
+            </div>
+            <div class="inputs1">
+                <div class="maior">
+                    <label>Cidade</label>
+                    <input type="text" id="cidade">
+                    <span class="loading"></span>
+                </div>
+                <div class="menor">
+                    <label>UF</label>
+                    <input type="text" id="uf">
+                    <span class="loading"></span>
+                </div>
+            </div>
+            <div class="inputs2">
+                <div class="maior">
+                    <label>IBGE</label>
+                    <input type="text" id="ibge">
+                    <span class="loading"></span>
+                </div>
+                <div class="menor">
+                    <label>DDD</label>
+                    <input type="text" id="ddd">
+                    <span class="loading"></span>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script src="consulta-endereco.js"></script>
+    
+</body>
+</html>
